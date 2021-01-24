@@ -1,6 +1,13 @@
 module.exports = {
-  someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
-  },
+  introduce:[
+    'introduce/introduce'
+
+  ]
+        // {
+        //   快速开始: [
+        //     'sdk/tap-android',
+        //     'sdk/tap-ios',
+        //     'sdk/tap-unity'
+        //   ],
+        // },
 };

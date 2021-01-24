@@ -1,33 +1,28 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: '爱上黑科技',
+  tagline: '开始了解我',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'JemyCheung',
+  projectName: 'introduceM',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Jemy',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
+          docId: 'introduce/introduce',
           label: '简历',
+          type: 'doc',
           position: 'left',
         },
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
+
         {
           href: 'https://github.com/JemyCheung',
           label: 'GitHub',
@@ -39,15 +34,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'More',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'CSDN',
+              href: 'https://blog.csdn.net/JemyCheung'
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'GitHub',
+              href: 'https://github.com/JemyCheung',
             },
           ],
         },
@@ -56,30 +51,16 @@ module.exports = {
           items: [
             {
               label: '鄂ICP备18019346号-2',
-              to:'/'
+              href:'https://beian.miit.gov.cn/#/Integrated/index'
             },
             {
               label: '联系电话：17321129884',
               to:'/'
             },
-
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/JemyCheung',
-            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 爱上黑科技`,
     },
   },
   presets: [
