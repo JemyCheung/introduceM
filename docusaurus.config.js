@@ -10,11 +10,7 @@ module.exports = {
   projectName: 'introduceM',
   themeConfig: {
     navbar: {
-      title: 'Jemy',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
+    
       items: [
         {
           docId: 'introduce/introduce',
