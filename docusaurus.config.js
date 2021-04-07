@@ -1,21 +1,20 @@
 module.exports = {
   title: '爱上黑科技',
   tagline: '开始了解我',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'http://www.ijemy.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'JemyCheung',
   projectName: 'introduceM',
   themeConfig: {
     navbar: {
-    
+
       items: [
         {
-          docId: 'introduce/introduce',
           label: '简历',
-          type: 'doc',
+          to:'/introduce',
           position: 'left',
         },
 
@@ -51,7 +50,7 @@ module.exports = {
             },
             {
               label: '联系电话：17321129884',
-              to:'/'
+              to:'/introduce'
             },
           ],
         },
@@ -65,9 +64,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          routeBasePath: "/",
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
