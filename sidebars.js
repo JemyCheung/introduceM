@@ -1,8 +1,8 @@
 module.exports = {
   introduce:[
     'introduce/introduce',
-    'introduce/work',
-    'introduce/technology'
+    'introduce/work'
+    //'introduce/technology'
 
   ]
         // {
